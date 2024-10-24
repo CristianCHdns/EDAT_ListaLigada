@@ -1,6 +1,6 @@
 ﻿namespace ListaLigada.Logica
 {
-    public class Class1
+    public class SingleNode <T>
     {
 
     }
