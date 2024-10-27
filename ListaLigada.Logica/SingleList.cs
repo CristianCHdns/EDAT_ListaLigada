@@ -6,7 +6,7 @@
 
         public SingleList()
         {
-            _first = null;
+            _first = null;//ll
         }
 
         public bool isEmpty() => _first == null;
