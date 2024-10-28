@@ -21,7 +21,7 @@
             else
             {
                 var pointer = _first;
-                while (pointer!.Next != null)// el pointer se va ir moviendo, compara la propiedad con null
+                while (pointer != null)// el pointer se va ir moviendo, compara la propiedad con null
                 {
                     pointer = pointer.Next; //verifica que exista otro nodo aputando guarda la direccion del nuevo nodo que se esta insertando
                 }
